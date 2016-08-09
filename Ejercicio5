@@ -1,0 +1,15 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		double a;
+		Console.WriteLine("Ingrese su edad");
+		a=Convert.ToDouble(Console.ReadLine());
+		if(a>=18)
+    	Console.WriteLine("Felicidades al usted ser mayor de 18 años ("+a+") puede ejercer su voto");
+		else
+		Console.WriteLine("Lo siento, usted es aun menor de edad");
+	}
+}
