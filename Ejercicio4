@@ -1,0 +1,16 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		double a;
+		Console.WriteLine("Ingrese el año");
+		a=Convert.ToDouble(Console.ReadLine());
+		if(((a % 2) % 2) == 0)
+    	Console.WriteLine("el año "+a+" es bisiesto");
+		else
+			Console.WriteLine("el año "+a+" no es bisiesto");
+
+	}
+}
