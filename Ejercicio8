@@ -1,0 +1,29 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		double codigo, notaf, notaq, notap, notatotal, promedio;
+		string nombre;
+		Console.WriteLine("Ingrese codigo");
+		codigo=Convert.ToDouble(Console.ReadLine());
+		Console.WriteLine("Ingrese nombre");
+		nombre=Convert.ToString(Console.ReadLine());
+		Console.WriteLine("Ingrese nota fisica");
+		notaf=Convert.ToDouble(Console.ReadLine());
+		Console.WriteLine("Ingrese nota quimica");
+		notaq=Convert.ToDouble(Console.ReadLine());
+		Console.WriteLine("Ingrese nota programacion");
+		notap=Convert.ToDouble(Console.ReadLine());
+		notatotal=notaf+notaq+notap;
+		promedio= (notaf+notaq+notap)/3;
+		Console.WriteLine("Codigo "+codigo);
+		Console.WriteLine("nombre "+nombre);
+		Console.WriteLine("Fisica "+notaf);
+		Console.WriteLine("Quimica "+notaq);
+		Console.WriteLine("Programacion "+notap);
+		Console.WriteLine("Suma Total/ Nota Total "+notatotal);
+		Console.WriteLine("Promedio "+promedio);
+	}
+}
