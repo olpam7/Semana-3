@@ -1,0 +1,17 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		double a;
+		Console.WriteLine("Ingrese su estatura en cms");
+		a=Convert.ToDouble(Console.ReadLine());
+		if(a >= 173)
+    	Console.WriteLine("Usted tiene una estatura alta "+a);
+		if(a <= 140)
+		Console.WriteLine("Usted tiene una estatura baja "+a);
+		if(a >= 140 && a <= 173)
+		Console.WriteLine("Usted tiene una estatura mediana "+a);
+	}
+}
