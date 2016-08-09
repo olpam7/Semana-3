@@ -1,0 +1,16 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		double a;
+		Console.WriteLine("Ingresa valor");
+		a=Convert.ToDouble(Console.ReadLine());
+		if(a >= 0)
+    	Console.WriteLine("el numero "+a+" es un numero positivo");
+		else
+			Console.WriteLine("el numero "+a+" es un numero negativo");
+
+	}
+}
