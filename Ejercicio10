@@ -1,0 +1,43 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+	Caracter c = new Caracter();
+        char Car;
+        Console.WriteLine("Teclea una vocal o consonante");
+        Car = Convert.ToChar(Console.ReadLine());
+        c.Calcula(Car);
+        Console.ReadLine();
+    }
+}
+
+class Caracter
+{
+
+    public void Calcula(char Car)
+    {
+        switch (Car)
+        {
+            case 'a':
+                Console.WriteLine("Es vocal "+Car);
+                break;
+            case 'e':
+                Console.WriteLine("Es vocal "+Car);
+                break;
+            case 'i':
+                Console.WriteLine("Es vocal "+Car);
+                break;
+            case 'o':
+                Console.WriteLine("Es vocal "+Car);
+                break;
+            case 'u':
+                Console.WriteLine("Es vocal "+Car);
+                break;
+			default:
+                Console.WriteLine("Es una consonante "+Car);
+                break;
+        }
+    }
+}
