@@ -1,0 +1,23 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		double a,b,c;
+		Console.WriteLine("Ingrese primer valor");
+		a=Convert.ToDouble(Console.ReadLine());
+		Console.WriteLine("Ingrese segundo valor");
+		b=Convert.ToDouble(Console.ReadLine());
+		Console.WriteLine("Ingrese tercer valor");
+		c=Convert.ToDouble(Console.ReadLine());
+		if(a > b && a > c)
+    	Console.WriteLine("el numero mayor es el primero "+a);
+		if(b > a && b > c)
+    	Console.WriteLine("el numero mayor es el segundo "+b);
+		if(c > a && c > b)
+    	Console.WriteLine("el numero mayor es el tercero "+c);
+		if(a == b || b == c || a ==c)
+		Console.WriteLine("existen dos o mas numeros repetidos");
+	}
+}
