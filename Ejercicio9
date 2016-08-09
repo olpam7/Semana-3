@@ -1,0 +1,23 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		double a;
+		Console.WriteLine("Ingrese temperatura");
+		a=Convert.ToDouble(Console.ReadLine());
+		if(a < 0)
+    	Console.WriteLine("la temperatura esta para congelarse "+a+"°C");
+		if(a >= 0 && a < 10)
+		Console.WriteLine("La temperatura esta muy fria "+a+"°C");
+		if(a >= 10 && a < 20)
+		Console.WriteLine("La temperatura esta fria "+a+"°C");
+		if(a >= 20 && a < 30)
+		Console.WriteLine("La temperatura esta normal "+a+"°C");
+		if(a >= 30 && a < 40)
+		Console.WriteLine("La temperatura esta calida "+a+"°C");
+		if(a >= 40)
+		Console.WriteLine("La temperatura esta muy calida "+a+"°C");
+	}
+}
